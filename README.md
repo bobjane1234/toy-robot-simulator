@@ -1,5 +1,5 @@
 ## Install and Run the app
-- git clone repo
+- git clone https://github.com/bharatramesh2601/toy-robot-simulator.git
 - npm install
 - ng serve (http://localhost:4200/)
 
