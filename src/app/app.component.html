@@ -1,0 +1,15 @@
+<h1>
+  {{title}}
+</h1>
+<div class="table-responsive">
+  <table class="table">
+      <tr>
+  <td class="left">
+<app-table-top [command]="command" (commandExecuted)="onCommandReceived($event)" ></app-table-top>
+</td>
+<td class="lefttop">
+  <app-manual></app-manual>
+</td>
+</tr></table>
+<app-move-robot (commandReceived)="onCommandReceived($event)"></app-move-robot>
+<div id="result" >{{uilog}}<div>
